@@ -1,13 +1,11 @@
 {
-    "name": "lib",
-    "version": "1.1.1",
+    "name": "{{ name }}",
+    "version": "1.0.0",
     "description": "Just a template library",
-    "keywords": [
-        "lib"
-    ],
-    "main": "dist/mcanvas.node.js",
-    "broswer": "dist/mcanvas.web.js",
-    "module": "dist/mcanvas.web.js",
+    "keywords": ["{{ name }}"],
+    "main": "dist/index.js",
+    "broswer": "dist/index.js",
+    "module": "dist/index.js",
     "moduleName": "MCanvas",
     "types": "src/lib.d.ts",
     "scripts": {
@@ -16,7 +14,7 @@
         "build": "rm -rf dist && npm run prod",
         "start": "npm run dev"
     },
-    "author": "gxd(159042708@qq.com)",
+    "author": "daixwu <daixwu@gmail.com>",
     "license": "MIT",
     "repository": {
         "url": "https://github.com/xd-tayde/mcanvas",
