@@ -5,8 +5,8 @@
     "keywords": ["{{ name }}"],
     "main": "dist/index.js",
     "broswer": "dist/{{ name }}.js",
-    "module": "dist/index.js",
-    "moduleName": "MCanvas",
+    "module": "dist/{{ name }}.js",
+    "moduleName": "{{ name }}",
     "types": "src/lib.d.ts",
     "scripts": {
         "dev": "NODE_ENV=development webpack-dev-server --config build/webpack.example.js",
@@ -17,7 +17,7 @@
     "author": "daixwu <daixwu@gmail.com>",
     "license": "MIT",
     "repository": {
-        "url": "https://github.com/xd-tayde/mcanvas",
+        "url": "https://github.com/daixwu/lib.git",
         "type": "git"
     },
     "devDependencies": {
