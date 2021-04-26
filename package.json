@@ -1,10 +1,9 @@
 {
-    "name": "{{ name }}",
+    "name": "haha",
     "version": "1.0.0",
     "description": "Just a template library",
     "keywords": ["{{ name }}"],
-    "main": "dist/index.js",
-    "broswer": "dist/{{ name }}.js",
+    "main": "dist/{{ name }}.js",
     "module": "dist/{{ name }}.js",
     "moduleName": "{{ name }}",
     "types": "src/lib.d.ts",
